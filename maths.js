@@ -1,6 +1,7 @@
-var math = 1;
-var result = math++;
-alert(result);
-var prenom = prompt('Quel est votre prénom ?');
-alert(prenom);
-console.log(prenom);
+var fruits = [
+  { name: "Kiwi", vitamine: "C" },
+  { name: "Mangue", vitamine: "A" },
+  { name: "Cassis", vitamine: "E" }
+];
+
+console.table(fruits);
